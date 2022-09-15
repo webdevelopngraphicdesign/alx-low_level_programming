@@ -7,17 +7,9 @@
  */
 void print_line(int n)
 {
-	int rb;
-
-	if (n <= 0)
+	while (n-- > 0)
 	{
-		_putchar('\n');
+		putchar('_');
 	}
-	else
-		for (rb = 1; rb <= n; rb++)
-		{
-			_putchar('rb');
-		}
-		_putchar('\n');
-		}
+	putchar('\n');
 }
