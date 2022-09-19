@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * _strcmp - a function that compares two strings
- * @s1: input one
- * @s2: input two
- * Return: Always 0 (Success)
+ * _puts - a function that prints a string
+ * @str: string input
+ * Return: string
  */
-int _strcmp(char *s1, char *s2)
+void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+		_putchar(str[i]);
 	}
-	return (0);
+	_putchar('\n');
 }
