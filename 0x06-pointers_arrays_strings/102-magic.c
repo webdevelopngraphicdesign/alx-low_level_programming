@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * Description: Add one line to this code.
+ * Description: Add one line to this code, so that the program prints
  *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {
