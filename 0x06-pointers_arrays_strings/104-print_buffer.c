@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * void print_buffer(char *b, int size);
- * print_buffer - Prints a buffer 10 bytes at a time, starting with
+ * print_buffer(char *b, int size);
+ * Description: print_buffer - Prints a buffer 10 bytes at a time, starting with
  * the byte position, then showing the hex content,
  * then displaying printable charcaters.
  * @b: The buffer to be printed.

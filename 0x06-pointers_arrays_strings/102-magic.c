@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: Add one line to this code, so that the program prints
- *
+ * main - check the code
+ * description: get it
  * Return: 0
  */
 int main(void)
