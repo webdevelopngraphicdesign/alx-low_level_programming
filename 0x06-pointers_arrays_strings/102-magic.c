@@ -1,10 +1,6 @@
 #include <stdio.h>
+#include "main.h"
 
-/**
- * main - check the code
- * description: get it
- * Return: 0
- */
 int main(void)
 {
 	int n;
